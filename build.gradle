@@ -108,6 +108,18 @@ dependencies {
     //Moonlight Lib
     compileOnly "curse.maven:selene-499980:7209771"
     localRuntime "curse.maven:selene-499980:7209771"
+
+    //Sophisticated Backpacks
+    compileOnly "curse.maven:sophisticated-backpacks-422301:7169832"
+    localRuntime "curse.maven:sophisticated-backpacks-422301:7169832"
+
+    //Sophisticated Core
+    compileOnly "curse.maven:sophisticated-core-618298:7168230"
+    localRuntime "curse.maven:sophisticated-core-618298:7168230"
+
+    //Nature's Compass
+    compileOnly "curse.maven:natures-compass-252848:5696042"
+    localRuntime "curse.maven:natures-compass-252848:5696042"
 }
 
 var generateModMetadata = tasks.register("generateModMetadata", ProcessResources) {
